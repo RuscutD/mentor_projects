@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dungeon Keeper</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../media/Dungeon Keeper.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/left.css">
+    <link rel="stylesheet" href="../css/right.css">
+    <link rel="stylesheet" href="../css/intro.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/avara" type="text/css" />
+    <script src="../js/index.js"></script>
+    <script src="../js/animation.js"></script>
+
+<body onload="addGps(gps), getGPS()">
+
+    <div>
+        <img src="../media/tree.jpeg" alt="treepicture" class="tree" id="treeleft">
+    </div>
+    <div class="left_content">
+        <video src="../media/Fire.mp4" autoplay loop muted></video>
+        <div class="title">
+            <h1 class="site_title">Dungeon Keeper Clicker</h1>
+        </div>
+        <div class="float_logo" id="logo">
+            <img src="../media/Dungeon Keeper.png" alt="img" class="logo">
+        </div>
+        <div class="shop">
+            <div id="slime" onclick="buyMinion(1)" class="buy">
+                <p class="itemName">Slime | Cost 10 | GPS 1</p>
+            </div>
+            <div id="undead" onclick="buyMinion(2)" class="buy">
+                <p class="itemName">Undead | Cost 100 | GPS 5</p>
+            </div>
+            <div id="imp" onclick="buyMinion(3)" class="buy">
+                <p class="itemName">Imp | Cost 500 | GPS 10</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src="../media/tree.jpeg" alt="treepicture" class="tree">
+    </div>
+    <div class="right_content">
+        <div>
+            <img src="../media/tree.jpeg" alt="treepicture" class="tree2">
+        </div>
+        <div class="right_container">
+            <div class="gold">
+                <label class="piècesGold">
+                    <div class="coins">
+                        <p id="coins" class="coinNumber">0</p>
+                        <img src="../media/goldingots.png" class="ingot"/>
+                    </div>
+                </label>
+            </div>
+            <div>
+                <img src="../media/tree.jpeg" alt="treepicture" class="tree2">
+            </div>
+            <div class="menu">
+                    <label class="piècesGps">
+                        <p id="gps" class="gpsNumber">0</p>
+                    </label>
+                <button class="save" onclick="save()">
+                    <p>SAVE</p>
+                </button>
+                <button class="load" onclick="load()">
+                    <p>LOAD</p>
+                </button>
+            </div>
+            <div>
+                <img src="../media/tree.jpeg" alt="treepicture" class="tree2">
+            </div>
+            <div class="clicker">
+                <img src="../media/pioche.jpeg" alt="gold" onclick="addGold(gps)" onclick="save()" onclick="playSound()" class="click" id="pioche">
+            </div>
+            <div>
+                <img src="../media/tree.jpeg" alt="treepicture" class="tree2">
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src="../media/tree.jpeg" alt="treepicture" class="tree">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+.float_logo {
+    position: relative;
+    animation: logo 3s;
+}
+
+.logo {
+    position: relative;
+    animation: logo 3s;
+}
+
+.title {
+    animation: fadein 4s;
+}

@@ -1,0 +1,132 @@
+.right_content {
+    background-image: url(../media/pave.jpeg);
+    background-color: rgb(88, 88, 88);
+    width: 55%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.gold {
+    background-image: url(../media/border.jpeg);
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.goldTxt {
+    margin-right: 500px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-family: 'AvaraBold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.coinNumber {
+    margin-top: 30px;
+    font-size: 100px;
+    color: gold;
+    font-family: 'AvaraBold';
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+.coins {
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    margin-top: 60px;
+}
+
+.ingot {
+    width: 30px;
+    height: 30px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    justify-content: space-evenly;
+    background-image: url(../media/woodback.jpeg);
+    background-size: 400px;
+    height: 60px;
+}
+
+.clicker {
+    margin-top: 45px;
+    padding-bottom: 45px;
+    width: 100%;
+    height: 100%;
+}
+
+.clicker:active {
+    transition: 0.1s;
+    transform: rotate(-70deg);
+}
+
+.click {
+    width: 250px;
+    height: auto;
+}
+
+.piècesGps {
+    box-shadow: 0px 0px 40px 10px rgb(0, 0, 0);
+    border: outset grey 2px;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding-top: 10px;
+    color: beige;
+    background-image: url(../media/stone.png);
+    background-size: 70px;
+    font-family: 'AvaraBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.save {
+    box-shadow: 0px 0px 40px 10px rgb(0, 0, 0);
+    width: 80px;
+    color: beige;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(../media/stone.png);
+    background-size: 70px;
+    font-family: 'AvaraBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.save:hover {
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+.load {
+    box-shadow: 0px 0px 40px 10px rgb(0, 0, 0);
+    width: 80px;
+    color: beige;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(../media/stone.png);
+    background-size: 70px;
+    font-family: 'AvaraBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.load:hover {
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+audio {
+    display: none;
+}

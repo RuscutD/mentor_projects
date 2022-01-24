@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+a:link
+{
+ text-decoration:none;
+}
+
+.header {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 2px 10px black;
+    z-index: 0;
+}
+
+.left {
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+}
+
+.right {
+    margin-right: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 200px;
+    align-items: baseline;
+}
+
+.nav-btn {
+    display: table-cell;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+}
+
+.nav-btn:hover {
+    box-shadow: 0px 5px 10px darkgrey;
+    transition-duration: 0.2s;
+    border-bottom: solid black;
+}
+
+.logo {
+    height: 200px;
+    display: flex;
+    justify-content: baseline;
+}
+
+.logo-img {
+    height: 200px;
+    width: auto;
+}
+
+.logo-img:hover {
+    transition-duration: 0.5s;
+    height: 220px;
+    width: auto;
+}
+
+.title {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 70px;
+    color: black;
+}
+
+.cart {
+    height: 30px;
+    width: auto;
+}
+
+.icone {
+    width: auto;
+    height: 32px;
+}
+
+.icone:hover {
+    opacity: 70%;
+}
+
+footer {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1e2226;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hr1 {
+    width: 80%;
+    height: 20px;
+    opacity: 70%;
+}
+
+.hr2 {
+    width: 80%;
+    opacity: 70%;
+}
+
+.marques {
+    padding: 40px;
+    width: 90%;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background: #c21500;
+    background: linear-gradient(to top, #1e2226, #25292e);
+}
+
+.marques:hover {
+    transition-duration: 0.5s;
+    background: linear-gradient(to top, #4b525f, #25292e);
+    width: 95%;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.icones {
+    gap: 10px;
+    margin-left: -500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.reseaux {
+    display: flex;
+    flex-direction: row;
+}
+
+h4 {
+    color: rgba(255, 235, 205, 0.384);
+}
+
+h5 {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.39);
+}
+
+.text {
+    padding-left: 10px;
+    padding-top: 8px;
+}

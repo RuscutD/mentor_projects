@@ -1,0 +1,352 @@
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@keyframes movewelcome {
+    0% {
+        left: -400px;
+      }
+    50% {
+        left: -20px;
+      }
+      100% {
+        left: 0px;
+      }
+}
+
+@keyframes movemess {
+    0% {
+        top: -50px;
+      }
+    50% {
+        top: 10px;
+      }
+    100% {
+        top: 0px;
+      }
+}
+
+@keyframes movepics {
+    0% {
+        left: -50px;
+      }
+    50% {
+        left: 10px;
+      }
+    100% {
+        left: 0px;
+      }
+}
+
+@keyframes movecite {
+    0% {
+        bottom: -50px;
+      }
+    50% {
+        bottom: 10px;
+      }
+    100% {
+        bottom: 0px;
+      }
+}
+
+body {
+    position: relative;
+    animation: body 1s;
+    background-color: #03224c;
+}
+
+header {
+    overflow : hidden ;
+    align-content: center;
+    border-style: solid;
+    background-image: url(officehome.jpg);
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header {
+
+}
+
+.cite {
+    margin-bottom: 90px;
+    padding-right: 200px;
+    margin-top: 40px;
+    margin-left: 500px;
+    position: relative;
+    animation: movecite 2s;
+}
+
+.citation {
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+
+
+h4 {
+    font-size: 40px;
+}
+
+img {
+    width: 280px;
+}
+
+.stat {
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-shadow: 0px 0px 3px black;
+    margin-right: 200px;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+}
+
+.welcomemess {
+    margin-left: 90px;
+    padding-right: 600px;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    animation: movemess 2s;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #02429b;
+}
+
+.copyright {
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+}
+
+.formulaire {
+    padding-top: 40px;
+    margin-left: 30px;
+    color: white;
+}
+
+.formu {
+    color: white;
+    font-size: 20px;
+}
+
+.social {
+    margin-left: 400px;
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook {
+    height: 60px;
+    width: 60px;
+}
+
+.twitter {
+    height: 60px;
+    width: 60px;
+}
+
+.linkedin {
+    height: 60px;
+    width: 60px;
+}
+
+.insta {
+    height: 60px;
+    width: 60px;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+legend {
+    animation: fadeIn linear 0.5s ;
+    text-align: center;
+    color: white;
+    border-bottom:white solid;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right:30px;
+    background-color: rgba(0, 0, 0, 0.048);
+}
+
+.filmmaker {
+    cursor: pointer;
+    width: 600px;
+    animation: fadeIn linear 2s ;
+}
+
+.photograph {
+    cursor: pointer;
+    width: 600px;
+    animation: fadeIn linear 2s ;
+}
+
+.studio {
+    cursor: pointer;
+    width: 600px;
+    animation: fadeIn linear 2s ;
+}
+
+.contphoto {
+    animation: fadeIn linear 2s ;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.466);;
+}
+
+.contmusic {
+    animation: fadeIn linear 2s ;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.466);;
+}
+
+h5 {
+    margin-left: 40px;
+    text-shadow: 0px 0px 3px black;
+    color:white;
+    font-size: 50px;
+    position: relative;
+    animation: movewelcome 2s;
+}
+
+h1 {
+    animation: fadeIn linear 0.9s ;
+    text-shadow: 0px 0px 3px black;
+    text-align: right;
+    margin-right: 120px;
+    margin-top: 40px;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+p {
+    animation: fadeIn linear 0.5s ;
+}
+
+.nav {
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 55px;
+    width: 450px;
+    border-style: ridge;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home {
+    margin: 2px;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.507);
+    box-shadow: 0px 0px 5px black;
+}
+
+.project {
+    cursor: pointer;
+    margin: 2px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.507);
+    box-shadow: 0px 0px 5px black;
+}
+
+.about {
+    cursor: pointer;
+    margin: 2px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.507);
+    box-shadow: 0px 0px 5px black;
+}
+
+.contfilm {
+    animation: fadeIn linear 2s ;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.466);;
+}
+
+.contcontact {
+    animation: fadeIn linear 2s ;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.466);;
+}
+
+.cont {
+    animation: fadeIn linear 1s ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    animation: fadeIn linear 2s ;
+    margin-right: 50px;
+    justify-content: space-around;
+    padding-left: 10px;
+    font-size: 30px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.466);
+    width: 900px;
+}
+
+.left {    
+    animation: fadeIn linear 0.5s ;
+    padding-top: 90px;
+    text-align: center;
+    margin-left: 50px;
+    width: 300px ;
+    color: white;
+    position: relative;
+    animation: movepics  2s;
+}
+
+.etna {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.passions {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.filmaking {
+    text-align: center;
+}
+
+.photo {
+    text-align: center;
+}
+
+.music {
+    text-align: center;
+}

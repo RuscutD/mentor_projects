@@ -1,0 +1,49 @@
+.formulaire {
+    margin-left: 170px;
+    height: 600px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-inf {
+    display: flex;
+    flex-direction: column;
+}
+
+.formu {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.info {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sell-btn {
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.sell-btn:hover {
+    font-size: 23px;
+    transition-duration: 0.2s;
+    border-bottom: solid black;
+    background-color: rgb(245, 245, 245);
+}
+
+.deco-img {
+    margin-left: 170px;
+    height: 600px;
+}
+

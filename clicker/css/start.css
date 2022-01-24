@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body video {
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+}
+
+.float_logo {
+    position: relative;
+    animation: float 3s infinite;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 40px;
+    width: 350px;
+    height: 320px;
+    border-radius: 350px;
+    background-color: rgba(0, 0, 12, 0.829);
+    box-shadow: 0px 0px 40px 10px rgb(255, 160, 36);
+}
+
+.title {
+    background-color: rgb(0, 0, 20);
+    height: 70px;
+
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0px 0px 40px 2px rgb(255, 160, 36);
+}
+
+.title:hover {
+    transition: 0.5s;
+    background-color: rgb(255, 160, 36);
+    box-shadow: 0px 0px 60px 40px rgb(255, 160, 36);
+}
+
+.site_title {
+    font-family: 'AvaraBold';
+    font-weight: normal;
+    font-style: normal;
+    color: ivory;
+    font-size: 50px;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}

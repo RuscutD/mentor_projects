@@ -1,0 +1,50 @@
+.default_div {
+    height: 100%;
+}
+
+.catalogue-par {
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 30px;
+    background-color: rgb(196, 196, 196);
+}
+
+.product-space {
+    padding: 20x;
+    width: 450px;
+    height: 240px;
+}
+
+.product-space:hover {
+    transition-duration: 0.5s;
+    border-bottom: solid 5px black;
+}
+
+.product-imgC {
+    overflow: hidden;
+    background-color: white;
+    height: 200px;
+    width: auto;
+}
+
+.imgC {
+    margin-left: 30px;
+    height: auto;
+    width: 400px;
+}
+
+.under-img {
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    height: 40px;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+
+.prd-btn {
+    width: 50px;
+}

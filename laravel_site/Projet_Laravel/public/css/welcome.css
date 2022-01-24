@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+a:link
+{
+ text-decoration:none;
+}
+
+
+.top {
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+
+.connect {
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
+    color: white;
+}
+
+.middle {
+    display: flex;
+    height: 600px;
+    overflow: hidden;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.text-mdl {
+    font-size: 30px;
+    color: white;
+    padding: 30px;
+    padding-top: 40px;
+}
+
+.piano-logo {
+    opacity: 80%;
+    margin-top: 15px;
+    padding-left: 145px;
+    height: 220px;
+    width: auto;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerW {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to left, #919191, #000000);
+}
+
+.welcome-message {
+    font-size: 70px;
+    color: white;
+    text-shadow: 0px 2px 10px black;
+}
+
+.welcome-div {
+    margin-top: 300px;
+    margin-left: 80px;
+}
+
+.log-name {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: 0px 2px 10px black;
+}
+
+.log-out {
+    color: rgb(206, 206, 206);
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 90px;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.log-out:hover {
+    transition-duration: 0.5s;
+    color: white;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.522);
+    text-shadow: 0px 2px 10px black;
+}
+
+.logo-img {
+    width: 800px;
+}
+
+.title {
+    background-color: white;
+    font-size: 70px;
+    color: black;
+    padding-left: 200px;
+}
+
+.citation {
+    height: 170px;
+    background-color: black;
+}
+
+.citation-content {
+    font-size: 30px;
+    color: white;
+    padding: 30px;
+}
+
+.nav-btn {
+    background-color: white;
+    display: flex;
+    padding-top: 15px;
+    margin-right: 50px;
+    align-items: baseline;
+}
+
+.fixed-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.371);
+    z-index: 0;
+}
+
+.btn-cat {
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.btn-cat:hover {
+    font-size: 23px;
+    transition-duration: 0.2s;
+    border-bottom: solid black;
+    background-color: rgb(245, 245, 245);
+}
+
+.cart {
+    width: 20px;
+    height: auto;
+}
+
+.icone {
+    width: auto;
+    height: 32px;
+}
+
+.icone:hover {
+    opacity: 70%;
+}
+
+.dec-1 {
+    height: 600px;
+    display: flex;
+}
+
+.img-1 {
+    height: 600px;
+    width: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #393e46;
+    height: 200px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icones {
+    gap: 10px;
+    margin-left: -500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.reseaux {
+    display: flex;
+    flex-direction: row;
+}
+
+h4 {
+    color: rgba(255, 235, 205, 0.384);
+}
+
+h5 {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.39);
+}
+
+.text {
+    padding-left: 10px;
+    padding-top: 8px;
+}

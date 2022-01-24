@@ -1,0 +1,95 @@
+.left_content {
+    width: 45%;
+    height: 789px;
+    overflow: hidden;
+    position: relative;
+}
+.left_content video {
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+}
+
+.title {
+    background-color: rgb(0, 0, 20);
+    height: 70px;
+
+    padding-top: 20px;
+
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0px 0px 40px 2px rgb(255, 160, 36);
+}
+
+.site_title {
+    font-family: 'AvaraBold';
+    font-weight: normal;
+    font-style: normal;
+    color: ivory;
+    font-size: 50px;
+}
+
+.float_logo {
+    position: relative;
+    animation: float 3s infinite;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 40px;
+    margin-left: 23%;
+    width: 350px;
+    height: 320px;
+    border-radius: 350px;
+    background-color: rgba(0, 0, 12, 0.829);
+    box-shadow: 0px 0px 40px 10px rgb(255, 160, 36);
+}
+
+.float_logo:hover {
+    transition: 2s;
+    background-color: rgb(255, 160, 36);
+    box-shadow: 0px 0px 60px 40px rgb(255, 160, 36);
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+.shop {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url(../media/tree.jpeg);
+    height: 230px;
+    border: groove rgb(44, 16, 8) 7px;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    box-shadow: 0px 0px 40px 10px rgb(255, 160, 36);
+}
+
+.buy {
+    background-color: rgba(0, 0, 12, 0.829);
+    justify-content: space-evenly;
+    margin: 10px;
+    height: 50px;
+    border: solid grey;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(59, 59, 59, 0.596);
+    border: groove rgb(44, 16, 8) 7px;
+    cursor: pointer;
+}
+
+.buy:hover {
+    transition: 0.5s;
+    background-color: rgb(255, 160, 36);
+    border: solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.596);
+}
+
+.itemName {
+    font-family: 'AvaraBold';
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: white;
+}
